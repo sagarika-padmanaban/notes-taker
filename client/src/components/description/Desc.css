@@ -1,0 +1,42 @@
+.desc-content{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    height: 100vh;
+    width: 100vw;
+}
+.desc-header{
+    background-color: black;
+    color: white;
+    display: flex;
+    gap:2rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+.desc-header>div{
+    display: flex;
+    gap: 0.2rem;
+}
+.desc-header>div>svg:hover{
+   transform: scale(1.3);
+}
+.desc-header>div>p{
+   font-weight: 600;
+}
+.desc-header>div>svg{
+    padding-top: 0.3rem;
+ }
+ .desc-card{
+    background-color: gainsboro;
+    margin: 2rem;
+    padding: 1rem;
+ }
+ .btn{
+    display: flex;
+    gap: 1rem;
+ }
+ /* .update-desc{
+    margin-top: 0.2rem;
+    margin: auto;
+ } */
